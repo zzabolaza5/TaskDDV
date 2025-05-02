@@ -10,6 +10,7 @@ Script ini digunakan untuk melakukan proses ELT (Extract, Load, Transform) seder
 - Docker 
 
 ⚙️ Konfigurasi Lingkungan
+
 Sebelum menjalankan script ini, pastikan kamu sudah membuat file .env dengan variabel berikut:
 
 ```
