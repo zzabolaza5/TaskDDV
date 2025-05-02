@@ -1,6 +1,6 @@
 Script ini digunakan untuk melakukan proses ELT (Extract, Load, Transform) sederhana dari database MySQL ke PostgreSQL menggunakan Python dengan bantuan pustaka pandas dan sqlalchemy.
 
-🔧 Teknologi yang Digunakan
+# 🔧 Teknologi yang Digunakan
 - Python
 - Pandas
 - SQLAlchemy
@@ -9,7 +9,7 @@ Script ini digunakan untuk melakukan proses ELT (Extract, Load, Transform) seder
 - PostgreSQL
 - Docker 
 
-⚙️ Konfigurasi Lingkungan
+# ⚙️ Konfigurasi Lingkungan
 
 Sebelum menjalankan script ini, pastikan kamu sudah membuat file .env dengan variabel berikut:
 
@@ -22,7 +22,7 @@ POSTGRES_PASSWORD=your_postgres_password
 POSTGRES_DB=your_postgres_database_name
 ```
 
-🚀 Cara Kerja Script
+# 🚀 Cara Kerja Script
 
 - Load Konfigurasi
 
@@ -44,7 +44,7 @@ POSTGRES_DB=your_postgres_database_name
 
     Mengirim (overwrite/replace) tabel store dan trx_total ke PostgreSQL.
 
-▶️ Cara Menjalankan
+# ▶️ Cara Menjalankan
 
 Aktifkan environment, lalu jalankan perintah berikut:
 ```
