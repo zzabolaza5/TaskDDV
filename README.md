@@ -17,7 +17,7 @@ Sediakan API untuk menampilkan informasi transaksi, toko, dan pelanggan
 - PostgreSQL 14
 - Pandas & SQLAlchemy
 - FastAPI
-- Docker & Docker Compose
+- Docker & Docker Compose 28.0.4
 
 # 📌 Running Program
 
@@ -70,3 +70,12 @@ Endpoint:
 | `/transaction-detail` | GET    | Detail transaksi dan toko                 |
 | `/store-detail`       | GET    | Total transaksi per toko                  |
 | `/customer-detail`    | GET    | Total transaksi per pelanggan & toko-toko |
+
+TASK
+
+1. Create ELT data pipeline from MySQL to PostgreSQL ✅
+
+2. Create API for consuming the processed data
+- get transaction detail payload: trx_id, store_id, customer_id, trx_amount, store_name, store_format_name, store_city, store_state ✅
+- get store detail payload: store_name, store_format_name, store_city, store_state, amount ✅ 
+- get customer detail payload: customer_id, amount, stores ✅ 
